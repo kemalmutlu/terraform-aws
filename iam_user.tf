@@ -16,4 +16,3 @@ resource "aws_iam_user_policy_attachment" "lucy-admin-access" {
   policy_arn = aws_iam_policy.adminUser.arn
 
 }
-
